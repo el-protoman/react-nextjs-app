@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import { Inter } from '@next/font/google'
 import styles from './page.module.css'
 
@@ -10,7 +11,8 @@ export default function Home() {
       <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
+          <Link href="/html-tips">HTML and JS Tips</Link>
+          {/* <code className={styles.code}>src/app/page.tsx</code> */}
         </p>
         <div>
           <a
@@ -44,7 +46,9 @@ export default function Home() {
           <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
         </div>
       </div>
+      <div>
 
+      </div>
       <div className={styles.grid}>
         <a
           href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
