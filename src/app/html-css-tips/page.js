@@ -136,6 +136,12 @@ export default function Page() {
                                 a:hover
                             </td>
                         </tr>
+                        <tr>
+                            <td>Other Selectors</td>
+                            <td>element1&gt;element2 - Selects all element2 where the parent is element1 <br></br>
+                                element1+element2 - Selects the first element2 that is placed immediately after element1</td>
+                            <td>div&gt;p <br></br> div + p</td>
+                        </tr>
                     </tbody>
                 </table>
                 <table>
@@ -262,6 +268,49 @@ export default function Page() {
                                 element to ensure float issues do not arise. The rationale behind the clearfix hack is to insert
                                 some content (a period) after the parent element to force the parent element to self clear since
                                 there is content after the floats.</td>
+                        </tr>
+                        <tr>
+                            <td>box-sizing</td>
+                            <td>Making all elements the same width and height</td>
+                            <td>content-box: default rules for a div - the width and height only ; border-box: includes border and padding and width and height, it will make the content shrink to fit the contents</td>
+                        </tr>
+                        <tr>
+                            <td>clear</td>
+                            <td>The clear CSS property specifies whether an element can be next to floating elements that precede it or must be moved down (cleared) below them. The clear property applies to both floating and non-floating elements.</td>
+                            <td>none, left, right, both, inherit, inline-start, inline-end</td>
+                        </tr>
+                        <tr>
+                            <td>Responsive Design</td>
+                            <td>Resource Links</td>
+                            <td><a href="https://codepip.com/games/grid-garden/">Learning Game</a><br></br>
+                                <a href="https://www.taniarascia.com/you-dont-need-a-framework/">You don't need a framework</a><br></br>
+                                <a href="https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/">Article 1</a><br></br>
+                                <a href="https://css-tricks.com/snippets/css/complete-guide-grid/">Guid to css grid</a></td>
+                        </tr>
+                        <tr>
+                            <td>Enter Next Here</td>
+                            <td>Enter Text Here</td>
+                            <td>Enter Text Here</td>
+                        </tr>
+                        <tr>
+                            <td>Enter Next Here</td>
+                            <td>Enter Text Here</td>
+                            <td>Enter Text Here</td>
+                        </tr>
+                        <tr>
+                            <td>Enter Next Here</td>
+                            <td>Enter Text Here</td>
+                            <td>Enter Text Here</td>
+                        </tr>
+                        <tr>
+                            <td>Enter Next Here</td>
+                            <td>Enter Text Here</td>
+                            <td>Enter Text Here</td>
+                        </tr>
+                        <tr>
+                            <td>Enter Next Here</td>
+                            <td>Enter Text Here</td>
+                            <td>Enter Text Here</td>
                         </tr>
                         <tr>
                             <td>Enter Next Here</td>

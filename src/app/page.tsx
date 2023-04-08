@@ -11,7 +11,12 @@ export default function Home() {
       <div className={styles.description}>
         <p>
           <Link href="/html-tips">Get started by editing&nbsp;
-            HTML and JS Tips</Link>
+            HTML and CSS Tips</Link>
+          {/* <code className={styles.code}>src/app/page.tsx</code> */}
+        </p>
+        <p>
+          <Link href="/js-tips">Get started by editing&nbsp;
+            JS Tips</Link>
           {/* <code className={styles.code}>src/app/page.tsx</code> */}
         </p>
         <div>
